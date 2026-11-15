@@ -1,0 +1,5 @@
+- Format shared display timestamps with an explicit Asia/Dhaka time zone so server and browser output remain identical.
+- Home queries use loader prefetching and suspense reads so the first render contains data without separate loading placeholders.
+- AI question explanations run through authenticated server functions and the generated AI Gateway SDK model contract; images remain transient request data.
+- Consultation reservations use database functions with row locking and unique slot ownership; office hours are managed by staff in the consultation page.
+- Exam calendar reuses published exam schedules and applies Dhaka-local date filters without a separate calendar data store.

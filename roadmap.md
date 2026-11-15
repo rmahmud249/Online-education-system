@@ -1,0 +1,35 @@
+# Smart Education BD roadmap
+
+- [x] Database schema, roles, security rules, exam functions
+- [x] Demo content (SSC/HSC catalog, materials, questions, exams, notices)
+- [x] Reply with exam flow + dashboard outline
+- [x] Study catalog: classes → groups → subjects → chapters → lessons
+- [x] Public site: home, about, contact, auth, materials, notices, exams
+- [x] Exam screen: countdown, navigation, autosave, review, timed submit
+- [x] Result pages: MCQ score, explanations, graded CQ, history
+- [x] Student dashboard with score trend charts (by subject / exam over time)
+- [x] Results filters: subject, exam, date (remembered per student)
+- [x] Chart points open matching result with filters preselected
+- [x] Teacher/admin dashboards with role-based visibility
+- [x] Fix catalog/subject pages stuck on loading
+- [x] Regression check for duplicate full route paths
+- [x] Resolve QueryClient type mismatch in router + full build check
+- [x] Stabilize homepage initial queries and fix server/browser timestamp mismatch; verify tests and preview navigation
+- [x] AI question help with text/image input and step-by-step solutions
+- [x] Exam calendar filtered by date, class, subject with countdowns
+- [x] Teacher office hours and student consultation reservations
+- [ ] AI analysis of completed practice results and focused practice plans
+- [ ] Student weekly practice-exam goal widget
+- [ ] Opt-in reminders for upcoming exams matching class and subjects
+- [ ] AI practice quiz generator (subject, chapter, difficulty) with explanations
+- [x] Practice history page: completed exams, scores, subjects, dates
+- [x] Study streak badges for consistent weekly practice
+- [ ] Personalized weekly revision plan using target subjects, exam date, completed results and weak topics
+- [ ] Subject score trends over time on practice history
+- [x] Engagement tracking: practice exam starts, completions, result views
+- [x] Teacher report: assigned students' practice participation and scores over time
+- [x] Chapter-based Bangla step-by-step AI explanations
+- [x] Homepage gradient panels: readable text/button contrast on mobile
+- [x] Homepage panels: clear "see all" links
+- [x] Follow-up questions on chapter explanations (Bangla, step by step)
+- [x] Saved explanations page: bookmark AI solutions and revisit
